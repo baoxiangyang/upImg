@@ -1,0 +1,9 @@
+{
+  "name": "upimg",
+  "version": "1.0.0",
+  "description": "图片裁剪,上传",
+  "main": "app.js",
+  "scripts": {
+    "script": "node app.js"
+  }
+}
