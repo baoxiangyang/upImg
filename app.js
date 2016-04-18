@@ -1,6 +1,7 @@
 var http =  require('http'),
 fs = require('fs');
 http.createServer(function(req,res){
+	console.log('服务器开启成功')
 	if( req.method =='GET'){
 		if(req.url == "/")	{
 			fs.readFile('./view/index.html','utf8',function(error,data){
