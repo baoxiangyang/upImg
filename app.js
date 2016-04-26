@@ -28,7 +28,7 @@ http.createServer(function(req,res){
 						console.log(err);
 						return ;
 					}
-					console.log('保存成功')
+					console.log('图片保存成功')
 				})
 				res.writeHead(200,{'Content-Type':"text/plain"});
 				res.end('上传成功')
