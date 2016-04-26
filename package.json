@@ -4,6 +4,6 @@
   "description": "图片裁剪,上传",
   "main": "app.js",
   "scripts": {
-    "script": "node app.js"
+    "start": "node ./app.js"
   }
 }
